@@ -1,0 +1,7 @@
+if game.PlaceId == 2990100290 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xunniez/Simulator/main/World1", true))()
+elseif game.PlaceId == 4628853904 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xunniez/Simulator/main/World2", true))()
+else
+game:Destroy()
+end
